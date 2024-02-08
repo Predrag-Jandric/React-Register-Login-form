@@ -24,7 +24,7 @@ function PostsPage() {
 				setIsLoading(false);
 			})
 			.catch((err) => console.log(err));
-	}, [addRemoveLikes]);
+	}, [dispatch, addRemoveLikes]);
 
 	return (
 		<main className='flex my-10 gap-10 max-[768px]:flex-col '>

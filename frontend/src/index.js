@@ -21,7 +21,6 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import store from './store/store';
 import { Provider } from 'react-redux';
-import AdsPage from './pages/Ads/AdsPage';
 import AuthGuarding from './utils/AuthGuarding';
 import DetailPost from './pages/DetailPost/DetailPost';
 
@@ -60,10 +59,6 @@ const router = createBrowserRouter([
 						<PostsPage />
 					</AuthGuarding>
 				),
-			},
-			{
-				path: '/ads',
-				element: <AdsPage />,
 			},
 			{
 				path: '/register',
