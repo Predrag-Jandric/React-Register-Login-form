@@ -1,7 +1,6 @@
 
-# React - Login and Register form
+# React - Register and Login form
 
-# 🔗 [Live Preview]()
 ![Design preview](./frontend/src/assets/profile.png)
 ![Design preview](./frontend/src/assets/log_in_register.png)
 
@@ -12,6 +11,10 @@
 This exercise is a small part of a much larger project meant to create a generic social media site. However, in this exercise, I am only practicing Register/Log-in/Log-out forms. All the other pages will be missing.
 
 The backend is completely done by someone else and included in the project. My focus was strictly on Frontend. This means there is a database of registered users.
+
+Upon successful or unsuccessful Registration/Login/Logout, Toastify notification will be shown.
+
+Unfortunately, I couldn't figure out how to deploy to Netlify like i do with all my projects, for live preview
 
 __How to start__
 
@@ -35,9 +38,15 @@ __How to start__
 
 ## To skip Register form simply copy/paste already registered user:
 
-### __peter@gmail.com__
+### _peter@gmail.com_
 
-### __pass: 1111__
+### _pass: 1111_
+
+or
+
+### _pedja@gmail.com_
+
+### _pass: 12345_
 
 ---
 
